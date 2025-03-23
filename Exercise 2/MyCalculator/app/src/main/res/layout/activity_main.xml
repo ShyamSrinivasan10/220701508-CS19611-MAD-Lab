@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mycalculator.MainActivity"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter value 1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/input1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter value 2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/input2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/output1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/add"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/sub"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/mul"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="450dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/div"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="510dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:id="@+id/mod"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="510dp"/>
+
+
+</RelativeLayout>
